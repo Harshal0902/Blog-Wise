@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { motion } from "framer-motion"
 
 export default function homeCards() {
@@ -26,9 +27,9 @@ export default function homeCards() {
                         <h1 className="mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font font-dancingScript"> Blog Title </h1>
                         <p className="mb-8 text-base leading-relaxed text-left text-blueGray-600 "> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi tenetur accusamus quam officiis aperiam officia quasi enim debitis soluta placeat perferendis autem, sunt laudantium. Ipsum fugiat impedit tempora voluptatum tenetur. </p>
                         <div className="flex flex-col justify-center lg:flex-row">
-                            <a href="/blog"><button className="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"> Read more </button></a>
+                            <Link href="/blog"><button className="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"> Read more </button></Link>
                             <p className="mt-2 text-sm text-left text-blueGray-600 md:ml-6 md:mt-0"> Written by: <br className="hidden lg:block" />
-                                <a href="" className="inline-flex items-center font-semibold text-blue-600 md:mb-2 lg:mb-0 hover:text-black " title="read more"> John Doe </a>
+                                <p className="inline-flex items-center font-semibold text-blue-600 md:mb-2 lg:mb-0 hover:text-black " title="read more"> John Doe </p>
                             </p>
                         </div>
                     </div>

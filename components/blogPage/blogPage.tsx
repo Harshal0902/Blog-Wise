@@ -1,7 +1,9 @@
+import Link from 'next/link'
+
 export default function blogPage() {
     return (
         <div>
-            <a href="/" className="font-semibold text-blue-600 md:mb-2 lg:mb-0 hover:text-black p-4">Go back</a>
+            <Link href="/"><p className="font-semibold text-blue-600 md:mb-2 lg:mb-0 hover:text-black p-4">Go back</p></Link>
             <div className="flex flex-col items-center w-full">
                 <h1 className="my-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font font-dancingScript"> Blog Title </h1>
                 <img className="py-2 px-10 float-right h-full w-screen rounded-lg " alt="hero" src="https://www.jimdo.com/static/7f58e83e14a16db25da8e56995f710b8/3e79b/hero.jpg" />
