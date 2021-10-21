@@ -1,5 +1,5 @@
+import 'tailwindcss/tailwind.css'
 import Head from 'next/head'
-// import '../styles/globals.css'
 import HomeCards from '../components/homeCards/homeCards'
 import { motion } from "framer-motion"
 
